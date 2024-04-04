@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Settings>
+	<Device>
+		<ModelName>USB-9234</ModelName>
+		<SamplingFrequency>12800</SamplingFrequency>
+        <DataUpdate>1</DataUpdate>
+	</Device>
+	<Filter>
+		<LowerCutoffFrequency>0.5</LowerCutoffFrequency>		
+		<UpperCutoffFrequency>5000</UpperCutoffFrequency>		
+	</Filter>
+	<WorkingFrequencyBand>
+		<Center>40</Center>
+		<Radius>5</Radius>
+	</WorkingFrequencyBand>
+	<ModulPermissibleMaxDeviation>0.05</ModulPermissibleMaxDeviation>
+	<AxisAngle>
+		<Beta>60</Beta>
+		<Gamma>45</Gamma>
+	</AxisAngle>
+	<TransmissionFactor>
+		<X>0.00512</X>
+		<Y>0.00488</Y>
+		<Z>0.00499</Z>
+		<K>0.00497</K>
+	</TransmissionFactor>
+    <Decimator>10</Decimator>
+    <FrequencyDelta>0.05</FrequencyDelta>
+    <SignificanceThreshold>0.05</SignificanceThreshold>
+    <ProjectionPermissibleMaxDeviation>0.05</ProjectionPermissibleMaxDeviation>
+</Settings>
